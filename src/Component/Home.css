@@ -1,0 +1,17 @@
+.imageSet {
+  width: 100vw;
+  height: min(100vw, 100vh);
+  background-image: url("https://i.ibb.co/vZ9NwVy/dark.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+.typingEffect {
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: calc(10px + 2vw);
+  text-align: center;
+}

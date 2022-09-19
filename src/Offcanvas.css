@@ -1,19 +1,20 @@
-.close-btn{
-    margin: 10px;
-    font-size: calc(15px + 3vw);
-    float: left;
+.close-btn {
+  margin: 10px;
+  font-size: calc(15px + 3vw);
+  float: left;
 }
 .offcan {
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 5;
-    width: calc(200px + 30vw);
-    height: 100vh;
-    background-color: black;
-    color: white;
-  }
-  .offcan h1{
-    text-align: right;
-    padding: 10px;
-  }
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  width: calc(150px + 33vw);
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+.offcan h1,
+h3 {
+  text-align: right;
+  padding: 10px;
+}

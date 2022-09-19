@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import "./Home.css"
 import Typewriter from "typewriter-effect";
-function Home() {
+function Home(props) {
     const [index, setIndex] = useState(4);
     let hideShow = () => {
         const scrolled = document.documentElement.scrollTop;
-        if (scrolled > 120 && index > 0) {
+        if (scrolled > 200 && index > 0) {
             setIndex(0);
-        } else if (scrolled <= 120 && index === 0) {
+        } else if (scrolled <= 200 && index === 0) {
             setIndex(4);
         }
         // ! What is going on here
@@ -17,11 +17,22 @@ function Home() {
     }, []);
     return (
         <>
-            <div className="imageSet" style={{ zIndex: { index } }}>
+            <div className="imageSet" style={{ zIndex: index }}>
+                <div className="headh">
+                    <h1>Mohammad Kaif</h1>
+                    <div className='right-head'>
+                        <span>Home</span>
+                        <span>About</span>
+                        <span>Contact me</span>
+                        <h1 className='headBars cursor-point'>
+                            <i className="bi bi-list" onClick={() => props.changeShow("block")}></i>
+                        </h1>
+                    </div>
+                </div>
                 <div className="typingEffect">
                     <Typewriter
                         options={{
-                            strings: ['Hi, I am Mohammad kaif', 'I am a MERN stack developer'],
+                            strings: ['Hi, I am Mohammad kaif', 'I am a MERN stack developer', "and currently learning web3"],
                             autoStart: true,
                             loop: true,
                         }}

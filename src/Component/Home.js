@@ -5,9 +5,9 @@ function Home(props) {
     const [index, setIndex] = useState(4);
     let hideShow = () => {
         const scrolled = document.documentElement.scrollTop;
-        if (scrolled > 180 && index > 0) {
+        if (scrolled > 120 && index > 0) {
             setIndex(0);
-        } else if (scrolled <= 180 && index === 0) {
+        } else if (scrolled <= 120 && index === 0) {
             setIndex(4);
         }
         // ! What is going on here
@@ -32,7 +32,7 @@ function Home(props) {
                 <div className="typingEffect">
                     <Typewriter
                         options={{
-                            strings: ['Hi, I am Mohammad kaif', 'I am a MERN stack developer', "and currently learning web3"],
+                            strings: ['Hi, I am Mohammad kaif', 'I am a MERN stack developer', "and currently learning WEB3"],
                             autoStart: true,
                             loop: true,
                         }}

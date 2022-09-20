@@ -21,11 +21,11 @@ function Home(props) {
         setInterval(() => {
             fetch("https://www.binance.com/api/v3/ticker/price?symbol=BNBUSDT", { method: "GET" })
             .then(response => response.json())
-            .then(response => setBNB(response.data.price))
+            .then(data => setBNB(data.price))
             fetch("https://www.binance.com/api/v3/ticker/price?symbol=BTCUSDT", { method: "GET" })
-            .then(response => response.json()).then(response => setBTC(response.price))
+            .then(response => response.json()).then(data => setBTC(data.price))
             fetch("https://www.binance.com/api/v3/ticker/price?symbol=SOLUSDT", { method: "GET" })
-            .then(response => response.json()).then(response => setSOL(response.price))
+            .then(response => response.json()).then(data => setSOL(data.price))
         }, 6000);
     }, []);
     return (

@@ -47,7 +47,7 @@
   transition: 1s all ease;
 }
 
-.reveal.active{
+.reveal:active{
   transform: translateY(0);
   opacity: 1;
 }

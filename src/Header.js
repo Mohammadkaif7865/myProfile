@@ -7,7 +7,6 @@ function Header(props) {
                 <h1>Mohammad Kaif</h1>
                 <div className="right-head">
                     <span>Home</span>
-                    <span>About</span>
                     <span>Contact me</span>
                     <h1 className='headBars cursor-point'>
                         <i className="bi bi-list" onClick={() => props.changeShow("block")}></i>

@@ -51,19 +51,43 @@ function Home(props) {
                     />
                 </div>
                 <div className="cryptoPrices">
-                    <span><img src="https://cryptoicons.org/api/icon/btc/50" alt="btc" />{Number(btc).toFixed(3)}usdt</span>{" "}
-                    <span><img src="https://cryptoicons.org/api/icon/eth/50" alt="btc" />{Number(eth).toFixed(3)}usdt</span>{" "}
-                    <span><img src="https://cryptoicons.org/api/icon/bnb/50" alt="btc" />{Number(bnb).toFixed(3)}usdt</span>{" "}
+                    <span><img src="https://i.ibb.co/xDwPT8M/btc.png" alt="btc" />{Number(btc).toFixed(3)} USDT</span>{" "}
+                    <span><img src="https://i.ibb.co/1LFTWd0/eth2.png" alt="eth" />{Number(eth).toFixed(3)} USDT</span>{" "}
+                    <span><img src="https://i.ibb.co/rxd1b2R/bnb.png" alt="bnb" />{Number(bnb).toFixed(3)} USDT</span>{" "}
                 </div>
             </div>
-            <div className="container">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. A ab quaerat ipsa aperiam ipsam omnis molestiae adipisci quibusdam numquam possimus voluptatem in sit aliquam explicabo quo, eligendi quis impedit cum sint dolorum aut eaque? Labore ad, ratione inventore reprehenderit consequatur vitae ab, blanditiis provident delectus ducimus ex pariatur. Aperiam natus est quae, autem vel quas nostrum molestiae impedit blanditiis repudiandae dignissimos nobis eveniet laboriosam! Officiis, nihil minus nisi id labore ex, saepe soluta deleniti nam voluptatem maiores ad sed, esse beatae commodi deserunt mollitia et? Culpa dicta dolore possimus voluptates et aliquam fugit, laudantium rem inventore ducimus doloremque nihil veniam a illum minus similique quasi voluptate illo quod, facere deserunt animi quas magni! Dolores rerum voluptas perspiciatis doloremque eaque reiciendis reprehenderit cumque! Autem ipsa sed necessitatibus culpa minus asperiores aliquid quae molestias unde pariatur, quo sequi, eveniet, amet corrupti neque provident quasi nobis aperiam totam facilis! Deserunt veritatis eum quae fuga cupiditate! Impedit repudiandae alias eum molestiae consequuntur doloremque facilis, labore ea nam deleniti voluptas id obcaecati perspiciatis magni fugiat laboriosam sunt quia tempore? Laborum, distinctio illum ea temporibus, qui, dolore maiores atque tempore molestias voluptas debitis unde aut est ipsa sed facilis minus itaque rerum magnam totam esse. Repudiandae aut asperiores illum, minus modi quasi reiciendis, recusandae commodi cum sequi quis ullam voluptatibus provident! Quae, impedit explicabo delectus ad eaque earum sit fuga numquam, sed cum voluptate provident ea modi tempore fugiat debitis?
-            </div>
-            <div className='aboutme reveal'>
-                <h1>About me</h1>
-                <div>
+            <div className='aboutme'>
+                <div className='picContainer'>
+                    <h1 className='borderBottom' >About me</h1>
                     "Hi, my self Mohammad kaif . I had completed my btech from Guru Tegh Bahadur Insitute Of Technology . All about my education have mentioned below. I am a software enthusiast and (MERN) full-stack web developer.I love to learn new technology, and also have decent knowledge of C++,C and DSA."
                 </div>
+                <div className="picContainer">
+                    <img src="https://i.ibb.co/B6gHmmx/IMG-20220831-WA0051.jpg" alt="myImage" className='profileimg' />
+                </div>
+            </div>
+            <div className='aboutme'>
+                <div className='picContainer'>
+                    <img src="https://i.ibb.co/KwgWqqJ/quali.png" alt="myImage" className='profileimg' />
+                </div>
+                <div className="picContainer">
+                    <h1 className='borderBottom' >Qualification</h1>
+                    <span className='displayB'>10th : Dev public school (CBSE : 98%)</span>
+                    <span className='displayB'>12th : Rao mohar singh memorial senior secondary school (CBSE : 85%)</span>
+                    <span className='displayB'> Guru tegh bahadur insitute of technology (2017-2021)
+                        BTECH - IT (CGPA : 7.8)</span>
+                </div>
+            </div>
+            <h1 className='borderBottom centerText' >Skill set</h1>
+            <div className="skills">
+                <img src="https://i.ibb.co/vHrrh4P/html.png" alt="html" />
+                <img src="https://i.ibb.co/DtRRvcj/css.png" alt="css" />
+                <img src="https://i.ibb.co/DQ1WCTQ/js.png" alt="js" />
+                <img src="https://i.ibb.co/xMXctLd/react.png" alt="react" />
+                <img src="https://i.ibb.co/gjfKm7Q/nodejs.png" alt="node" />
+                <img src="https://i.ibb.co/3MNpq6t/mongodb.png" alt="mongo" />
+                <img src="https://i.ibb.co/X2H5Qh7/expressjs.png" alt="express" />
+                <img src="https://i.ibb.co/k8fXBNx/c.png" alt="c" />
+                <img src="https://i.ibb.co/hHFSXHg/c.png" alt="c++" />
             </div>
         </>
     )

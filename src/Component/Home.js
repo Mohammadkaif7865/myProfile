@@ -10,6 +10,7 @@ function Home(props) {
         } else if (scrolled <= 120 && index === 0) {
             setIndex(4);
         }
+        // console.log(scrolled);
         // ! What is going on here
     };
     useEffect(() => {

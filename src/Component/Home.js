@@ -3,6 +3,9 @@ import "./Home.css"
 import Typewriter from "typewriter-effect";
 function Home(props) {
     const [index, setIndex] = useState(4);
+    const [bnb, setBNB] = useState("");
+    const [btc, setBTC] = useState("");
+    const [sol, setSOL] = useState("");
     let hideShow = () => {
         const scrolled = document.documentElement.scrollTop;
         if (scrolled > 121 && index > 0) {
@@ -15,6 +18,15 @@ function Home(props) {
     };
     useEffect(() => {
         window.addEventListener("scroll", hideShow);
+        setInterval(() => {
+            fetch("https://www.binance.com/api/v3/ticker/price?symbol=BNBUSDT", { method: "GET" })
+            .then(response => response.json())
+            .then(response => setBNB(response.data.price))
+            fetch("https://www.binance.com/api/v3/ticker/price?symbol=BTCUSDT", { method: "GET" })
+            .then(response => response.json()).then(response => setBTC(response.price))
+            fetch("https://www.binance.com/api/v3/ticker/price?symbol=SOLUSDT", { method: "GET" })
+            .then(response => response.json()).then(response => setSOL(response.price))
+        }, 6000);
     }, []);
     return (
         <>
@@ -28,6 +40,8 @@ function Home(props) {
                             <i className="bi bi-list" onClick={() => props.changeShow("block")}></i>
                         </h1>
                     </div>
+                </div>
+                <div className="cryptoPrices">
                 </div>
                 <div className="typingEffect">
                     <Typewriter

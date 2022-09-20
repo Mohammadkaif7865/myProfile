@@ -34,3 +34,20 @@
 .headh h1 {
   font-size: calc(15px + 2vw);
 }
+.aboutme{
+  padding: 10px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}

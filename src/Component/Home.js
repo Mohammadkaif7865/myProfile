@@ -5,7 +5,7 @@ function Home(props) {
     const [index, setIndex] = useState(4);
     const [bnb, setBNB] = useState("");
     const [btc, setBTC] = useState("");
-    const [sol, setSOL] = useState("");
+    const [eth, setETH] = useState("");
     let hideShow = () => {
         const scrolled = document.documentElement.scrollTop;
         if (scrolled > 121 && index > 0) {
@@ -20,13 +20,13 @@ function Home(props) {
         window.addEventListener("scroll", hideShow);
         setInterval(() => {
             fetch("https://www.binance.com/api/v3/ticker/price?symbol=BNBUSDT", { method: "GET" })
-            .then(response => response.json())
-            .then(data => setBNB(data.price))
+                .then(response => response.json())
+                .then(data => setBNB(data.price))
             fetch("https://www.binance.com/api/v3/ticker/price?symbol=BTCUSDT", { method: "GET" })
-            .then(response => response.json()).then(data => setBTC(data.price))
-            fetch("https://www.binance.com/api/v3/ticker/price?symbol=SOLUSDT", { method: "GET" })
-            .then(response => response.json()).then(data => setSOL(data.price))
-        }, 6000);
+                .then(response => response.json()).then(data => setBTC(data.price))
+            fetch("https://www.binance.com/api/v3/ticker/price?symbol=ETHUSDT", { method: "GET" })
+                .then(response => response.json()).then(data => setETH(data.price))
+        }, 1000);
     }, []);
     return (
         <>
@@ -41,8 +41,6 @@ function Home(props) {
                         </h1>
                     </div>
                 </div>
-                <div className="cryptoPrices">
-                </div>
                 <div className="typingEffect">
                     <Typewriter
                         options={{
@@ -51,6 +49,11 @@ function Home(props) {
                             loop: true,
                         }}
                     />
+                </div>
+                <div className="cryptoPrices">
+                    <span><img src="https://cryptoicons.org/api/icon/btc/50" alt="btc" />{Number(btc).toFixed(3)}usdt</span>{" "}
+                    <span><img src="https://cryptoicons.org/api/icon/eth/50" alt="btc" />{Number(eth).toFixed(3)}usdt</span>{" "}
+                    <span><img src="https://cryptoicons.org/api/icon/bnb/50" alt="btc" />{Number(bnb).toFixed(3)}usdt</span>{" "}
                 </div>
             </div>
             <div className="container">

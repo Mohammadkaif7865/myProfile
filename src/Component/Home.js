@@ -89,6 +89,76 @@ function Home(props) {
                 <img src="https://i.ibb.co/k8fXBNx/c.png" alt="c" />
                 <img src="https://i.ibb.co/hHFSXHg/c.png" alt="c++" />
             </div>
+            <h1 className='borderBottom centerText' >Projects</h1>
+            <div className="projects">
+
+                <div className="pro">
+                    <h2>Zomato <button className='btn btn-primary'>visit</button> </h2>
+                    <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div className="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                        </div>
+                        <div className="carousel-inner proImg">
+                            <div className="carousel-item active">
+                                <img src="https://i.ibb.co/ydpCDsP/Screenshot-5.png" className="d-block w-100" alt="home" />
+                            </div>
+                            <div className="carousel-item">
+                                <img src="https://i.ibb.co/LkP6PvH/Screenshot-4.png" className="d-block w-100" alt="listing" />
+                            </div>
+                            <div className="carousel-item">
+                                <img src="https://i.ibb.co/1G0077f/Screenshot-6.png" className="d-block w-100" alt="details" />
+                            </div>
+                            <div className="carousel-item">
+                                <img src="https://i.ibb.co/nBML9wV/Screenshot-7.png" className="d-block w-100" alt="checkout" />
+                            </div>
+                        </div>
+                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Previous</span>
+                        </button>
+                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div className="pro">
+                    <h2>Zomato <button className='btn btn-primary'>visit</button> </h2>
+                    <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div className="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                        </div>
+                        <div className="carousel-inner proImg">
+                            <div className="carousel-item active">
+                                <img src="https://i.ibb.co/ydpCDsP/Screenshot-5.png" className="d-block w-100" alt="home" />
+                            </div>
+                            <div className="carousel-item">
+                                <img src="https://i.ibb.co/LkP6PvH/Screenshot-4.png" className="d-block w-100" alt="listing" />
+                            </div>
+                            <div className="carousel-item">
+                                <img src="https://i.ibb.co/1G0077f/Screenshot-6.png" className="d-block w-100" alt="details" />
+                            </div>
+                            <div className="carousel-item">
+                                <img src="https://i.ibb.co/nBML9wV/Screenshot-7.png" className="d-block w-100" alt="checkout" />
+                            </div>
+                        </div>
+                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Previous</span>
+                        </button>
+                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }

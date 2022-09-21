@@ -7,6 +7,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+a {
+  color: white;
+}
+a:hover {
+  color: white;
+}
 
 body {
   background-color: black;
@@ -26,7 +32,7 @@ body {
 .headBars {
   display: none;
 }
-.cursor-point{
+.cursor-point {
   cursor: pointer;
 }
 @media screen and (max-width: 768px) {

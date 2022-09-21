@@ -1,0 +1,13 @@
+.foot-ele {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#contacts {
+  font-size: calc(30px + 1vw);
+}
+#contacts i {
+  margin: 1vw;
+}

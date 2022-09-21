@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from "react-router-dom";
 import "./Home.css"
 import Typewriter from "typewriter-effect";
 function Home(props) {
@@ -34,8 +35,8 @@ function Home(props) {
                 <div className="headh">
                     <h1>Mohammad Kaif</h1>
                     <div className='right-head'>
-                        <span>Home</span>
-                        <span>Contact me</span>
+                        <Link to="/"><span>Home</span></Link>
+                        <Link to="/message"><span>Contact me</span></Link>
                         <h1 className='headBars cursor-point'>
                             <i className="bi bi-list" onClick={() => props.changeShow("block")}></i>
                         </h1>

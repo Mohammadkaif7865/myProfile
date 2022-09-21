@@ -114,8 +114,27 @@
   width: 100%;
   height: 100%;
 }
+.hobbies {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto auto auto;
+  padding: 20px;
+}
+.hobby {
+  object-fit: contain;
+  width: 100%;
+  display: grid;
+}
+.hobby img {
+  width: 100%;
+  max-width: 250px;
+  margin: auto;
+}
 @media screen and (max-width: 767px) {
   .projects {
     grid-template-columns: auto;
+  }
+  .hobbies {
+    grid-template-columns: auto auto;
   }
 }

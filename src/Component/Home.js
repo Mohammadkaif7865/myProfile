@@ -93,7 +93,7 @@ function Home(props) {
             <div className="projects">
 
                 <div className="pro">
-                    <h2>Zomato <button className='btn btn-primary'>visit</button> </h2>
+                    <h2>Amazon <button className='btn btn-primary'>visit</button> </h2>
                     <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -103,13 +103,13 @@ function Home(props) {
                         </div>
                         <div className="carousel-inner proImg">
                             <div className="carousel-item active">
-                                <img src="https://i.ibb.co/ydpCDsP/Screenshot-5.png" className="d-block w-100" alt="home" />
+                                <img src="https://i.ibb.co/D1PZnhm/Screenshot-8.png" className="d-block w-100" alt="home" />
                             </div>
                             <div className="carousel-item">
-                                <img src="https://i.ibb.co/LkP6PvH/Screenshot-4.png" className="d-block w-100" alt="listing" />
+                                <img src="https://i.ibb.co/DzmxzCF/Screenshot-9.png" className="d-block w-100" alt="listing" />
                             </div>
                             <div className="carousel-item">
-                                <img src="https://i.ibb.co/1G0077f/Screenshot-6.png" className="d-block w-100" alt="details" />
+                                <img src="https://i.ibb.co/MVr7DgP/Screenshot-10.png" className="d-block w-100" alt="details" />
                             </div>
                             <div className="carousel-item">
                                 <img src="https://i.ibb.co/nBML9wV/Screenshot-7.png" className="d-block w-100" alt="checkout" />
@@ -159,6 +159,30 @@ function Home(props) {
                     </div>
                 </div>
             </div>
+            <h1 className="borderBottom centerText">Hobbies</h1>
+            <div className="hobbies">
+                <div className="hobby">
+                    <h3 className='BorderBottom centerText'>Sports</h3>
+                    <img src="https://i.ibb.co/PTcZVzz/sports.png" alt="sports" />
+                </div>
+                <div className="hobby">
+                    <h3 className='BorderBottom centerText'>Travel</h3>
+                    <img src="https://i.ibb.co/mGTVHwR/travel.png" alt="sports" />
+                </div>
+                <div className="hobby">
+                    <h3 className='BorderBottom centerText'>Coding</h3>
+                    <img src="https://i.ibb.co/JKkmkDZ/5847eb76cef1014c0b5e484f.png" alt="sports" />
+                </div>
+                <div className="hobby">
+                    <h3 className='BorderBottom centerText'>Gaming</h3>
+                    <img src="https://i.ibb.co/t4H7SGx/gaming.webp" alt="sports" />
+                </div>
+                <div className="hobby">
+                    <h3 className='BorderBottom centerText'>Gyming</h3>
+                    <img src="https://i.ibb.co/9wHMDCh/gym.png" alt="sports" />
+                </div>
+            </div>
+            <h1 className="borderBottom centerText">My Location</h1>
         </>
     )
 }

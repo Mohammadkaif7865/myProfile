@@ -135,9 +135,10 @@
   place-items: center;
 }
 .myLoc {
-  height: calc(150px + 20vw);
-  height: calc(105px + 20vw);
+  width: calc(150px + 35vw);
+  height: calc(105px + 30vw);
   border-radius: 10px;
+  margin: 10px;
 }
 @media screen and (max-width: 767px) {
   .projects {

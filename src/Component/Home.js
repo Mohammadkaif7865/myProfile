@@ -8,9 +8,9 @@ function Home(props) {
     const [eth, setETH] = useState("");
     let hideShow = () => {
         const scrolled = document.documentElement.scrollTop;
-        if (scrolled > 121 && index > 0) {
+        if (scrolled > 120 && index > 0) {
             setIndex(0);
-        } else if (scrolled <= 121 && index === 0) {
+        } else if (scrolled <= 120 && index === 0) {
             setIndex(4);
         }
         // console.log(scrolled);
@@ -71,9 +71,9 @@ function Home(props) {
                 </div>
                 <div className="picContainer">
                     <h1 className='borderBottom' >Qualification</h1>
-                    <span className='displayB'>10th : Dev public school (CBSE : 98%)</span>
-                    <span className='displayB'>12th : Rao mohar singh memorial senior secondary school (CBSE : 85%)</span>
-                    <span className='displayB'> Guru tegh bahadur insitute of technology (2017-2021)
+                    <span className='displayB'><i className="bi bi-circle-fill"></i> 10th : Dev public school (CBSE : 98%)</span>
+                    <span className='displayB'><i className="bi bi-circle-fill"></i> 12th : Rao mohar singh memorial senior secondary school (CBSE : 85%)</span>
+                    <span className='displayB'><i className="bi bi-circle-fill"></i>  Guru tegh bahadur insitute of technology (2017-2021)
                         BTECH - IT (CGPA : 7.8)</span>
                 </div>
             </div>

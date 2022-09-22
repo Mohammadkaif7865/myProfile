@@ -29,7 +29,7 @@ function Message() {
             <div className="container">
                 <form onSubmit={sendMessage}>
                     {
-                        messageSent ? <span style={{color:"green"}} >message recieved </span> : <span style={{color:"red"}} >message not recieved</span>
+                        messageSent ? <span style={{color:"green"}} >message recieved </span> : <span style={{color:"red"}} >message not recieved yet</span>
                     }
                     <div className="mb-3">
                         <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>

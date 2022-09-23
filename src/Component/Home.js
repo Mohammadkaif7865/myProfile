@@ -127,7 +127,7 @@ function Home(props) {
                     </div>
                 </div>
                 <div className="pro">
-                    <h2>Zomato <button className='btn btn-primary'>visit</button> </h2>
+                    <h2>Zomato <a href="https://zomatobyme.netlify.app" rel="noreferrer"><button className='btn btn-primary'>visit</button></a> </h2>
                     <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -185,7 +185,7 @@ function Home(props) {
             </div>
             <h1 className="borderBottom centerText">My Location</h1>
             <div className="location">
-                <iframe className='myLoc' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14007.635348138501!2d76.95111272534892!3d28.632494217302455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0e4df36aeb0f%3A0x14ca1b4b544523e!2sNaveen%20Palace%2C%20Jharoda%20Kalan%2C%20Delhi!5e0!3m2!1sen!2sin!4v1645689456510!5m2!1sen!2sin"
+                <iframe title='map' className='myLoc' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14007.635348138501!2d76.95111272534892!3d28.632494217302455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0e4df36aeb0f%3A0x14ca1b4b544523e!2sNaveen%20Palace%2C%20Jharoda%20Kalan%2C%20Delhi!5e0!3m2!1sen!2sin!4v1645689456510!5m2!1sen!2sin"
                     allowFullScreen="1" loading="lazy"></iframe>
             </div>
         </>

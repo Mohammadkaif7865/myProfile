@@ -9,9 +9,9 @@ function Home(props) {
     const [eth, setETH] = useState("");
     let hideShow = () => {
         const scrolled = document.documentElement.scrollTop;
-        if (scrolled > 121 && index > 0) {
+        if (scrolled > 120 && index > 0) {
             setIndex(0);
-        } else if (scrolled <= 121 && index === 0) {
+        } else if (scrolled <= 120 && index === 0) {
             setIndex(4);
         }
         // console.log(scrolled);

@@ -19,8 +19,8 @@
   padding: 10px;
   text-align: center;
   border-radius: 50%;
-  background-color: red;
-  color: white;
+  background-color: white;
+  color: black;
   position: fixed;
   z-index: 1111;
   bottom: 20px;

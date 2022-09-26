@@ -9,7 +9,7 @@ class Home extends React.Component {
             bnb: "",
             btc: "",
             eth: "",
-            index: ""
+            index: 4
         }
     }
     hideShow = () => {

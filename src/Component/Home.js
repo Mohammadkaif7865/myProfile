@@ -91,7 +91,7 @@ class Home extends React.Component {
                     <img src="https://i.ibb.co/xMXctLd/react.png" alt="react" />
                     <img src="https://i.ibb.co/gjfKm7Q/nodejs.png" alt="node" />
                     <img src="https://i.ibb.co/3MNpq6t/mongodb.png" alt="mongo" />
-                    <img src="https://i.ibb.co/X2H5Qh7/expressjs.png" alt="express" />
+                    <img src="https://i.ibb.co/xX6TdGx/express.webp" alt="express" />
                     <img src="https://i.ibb.co/k8fXBNx/c.png" alt="c" />
                     <img src="https://i.ibb.co/hHFSXHg/c.png" alt="c++" />
                 </div>
@@ -173,7 +173,7 @@ class Home extends React.Component {
                     </div>
                     <div className="hobby">
                         <h3 className='BorderBottom centerText'>Travel</h3>
-                        <img src="https://i.ibb.co/mGTVHwR/travel.png" alt="sports" />
+                        <img src="https://i.ibb.co/1G5zP0Y/travel.png" alt="sports" />
                     </div>
                     <div className="hobby">
                         <h3 className='BorderBottom centerText'>Coding</h3>

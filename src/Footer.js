@@ -51,7 +51,7 @@ function Footer() {
                 </div>
                 <div className="foot-ele">
                     <p>
-                        <sup>&copy;</sup>Copyright 2022, <sup>&#xae;</sup>All Rights Reserved. @ Mohammad kaif 0.0.1
+                         &copy; Copyright 2022, &#xae; All Rights Reserved. @ Mohammad kaif 0.0.1
                     </p>
                 </div>
             </footer>

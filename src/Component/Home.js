@@ -127,7 +127,7 @@ function Home(props) {
                     </div>
                 </div>
                 <div className="pro">
-                    <h2>Zomato <a href="https://zomatobyme.netlify.app" rel="noreferrer"><button className='btn btn-primary'>visit</button></a> </h2>
+                    <h2>Zomato <a href="https://zomatobyme.netlify.app" target="_blank"><button className='btn btn-primary'>visit</button></a> </h2>
                     <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>

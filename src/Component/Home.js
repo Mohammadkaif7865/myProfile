@@ -20,6 +20,7 @@ class Home extends React.Component {
             this.setState({ index: 4 });
         }
         // ! What is going on here
+        // ! idk why class component can easily handle scroll event listener but not function component
     };
     componentDidMount() {
         setInterval(() => {

@@ -14,9 +14,9 @@ class Home extends React.Component {
     }
     hideShow = () => {
         const scrolled = document.documentElement.scrollTop;
-        if (scrolled > 120 && this.state.index > 0) {
+        if (scrolled > 50 && this.state.index > 0) {
             this.setState({ index: 0 });
-        } else if (scrolled <= 120 && this.state.index === 0) {
+        } else if (scrolled <= 50 && this.state.index === 0) {
             this.setState({ index: 4 });
         }
         // ! What is going on here

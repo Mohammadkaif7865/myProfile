@@ -72,6 +72,7 @@
 .picContainer {
   width: 50%;
   padding: 10px;
+  font-size: calc(10px + 0.75vw);
   display: inline-block;
 }
 .profileimg {

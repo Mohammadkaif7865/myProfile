@@ -5,7 +5,7 @@ function Header(props) {
     return (
         <>
             <div className="head">
-                <h1>Mohammad Kaif</h1>
+                <Link to="/"> <h1>Mohammad Kaif</h1></Link>
                 <div className="right-head">
                     <Link to="/"><span>Home</span></Link>
                     <Link to="/message"><span>Contact me</span></Link>

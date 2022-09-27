@@ -39,7 +39,7 @@ class Home extends React.Component {
             <>
                 <div className="imageSet" style={{ zIndex: this.state.index }}>
                     <div className="headh">
-                        <h1>Mohammad Kaif</h1>
+                        <Link to="/"> <h1>Mohammad Kaif</h1></Link>
                         <div className='right-head'>
                             <Link to="/"><span>Home</span></Link>
                             <Link to="/message"><span>Contact me</span></Link>

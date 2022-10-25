@@ -100,7 +100,7 @@ class Home extends React.Component {
                 <div className="projects">
 
                     <div className="pro">
-                        <h2>Amazon <button className='btn btn-primary'>visit</button> </h2>
+                        <h2>Amazon <a href="https://amazonbymdkaif.netlify.app" target='_blank'><button className='btn btn-primary'>visit</button></a> </h2>
                         <div id="carouselExampleDark2" className="carousel carousel-dark slide" data-bs-ride="carousel">
                             <div className="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>

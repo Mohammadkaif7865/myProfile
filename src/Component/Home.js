@@ -113,13 +113,13 @@ class Home extends React.Component {
                                     <img src="https://i.ibb.co/D1PZnhm/Screenshot-8.png" className="d-block w-100" alt="home" />
                                 </div>
                                 <div className="carousel-item">
-                                    <img src="https://i.ibb.co/DzmxzCF/Screenshot-9.png" className="d-block w-100" alt="listing" />
+                                    <img src="https://i.ibb.co/8zBbhw6/Screenshot-20.png" className="d-block w-100" alt="listing" />
                                 </div>
                                 <div className="carousel-item">
-                                    <img src="https://i.ibb.co/MVr7DgP/Screenshot-10.png" className="d-block w-100" alt="details" />
+                                    <img src="https://i.ibb.co/kGG0mZD/Screenshot-18.png" className="d-block w-100" alt="details" />
                                 </div>
                                 <div className="carousel-item">
-                                    <img src="https://i.ibb.co/nBML9wV/Screenshot-7.png" className="d-block w-100" alt="checkout" />
+                                    <img src="https://i.ibb.co/cxbch9y/Screenshot-17.png" className="d-block w-100" alt="checkout" />
                                 </div>
                             </div>
                             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="prev">

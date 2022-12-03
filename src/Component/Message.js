@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Message.css';
-const url = "https://restaurantmysite.herokuapp.com/usermessage"
+const url = "https://zomatomdkaif.onrender.com/usermessage"
 function Message() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");

@@ -74,11 +74,8 @@ class Home extends React.Component {
                     </div>
                 </div>
                 <div className='aboutme'>
-                    <div className='picContainer2'>
-                        <div className='profileimg'>
-                            <Spline scene="https://prod.spline.design/qgzMq1qPrvsrAO7p/scene.splinecode" />
-                        </div>
-                        {/* <img src="https://i.ibb.co/KwgWqqJ/quali.png" alt="myImage" className='profileimg' /> */}
+                    <div className='picContainer'>
+                        <img src="https://i.ibb.co/KwgWqqJ/quali.png" alt="myImage" className='profileimg' />
                     </div>
                     <div className="picContainer">
                         <h1 className='borderBottom' >Qualification</h1>

@@ -30,7 +30,7 @@ class Home extends React.Component {
                 .then(data => this.setState({ bnb: data.price }))
             fetch("https://www.binance.com/api/v3/ticker/price?symbol=BTCUSDT", { method: "GET" })
                 .then(response => response.json()).then(data => this.setState({ btc: data.price }))
-            fetch("https://www.binance.com/api/v3/ticker/price?symbol=ETHUSDT", { method: "GET" })
+            fetch("https://www.binance.com/api/v3/ticker/price?symbol=LDOUSDT", { method: "GET" })
                 .then(response => response.json()).then(data => this.setState({ eth: data.price }))
         }, 1000);
         window.addEventListener("scroll", this.hideShow);

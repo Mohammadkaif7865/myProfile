@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Spline from '@splinetool/react-spline';
 import "./Home.css"
 import Typewriter from "typewriter-effect";
 class Home extends React.Component {

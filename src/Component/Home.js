@@ -64,7 +64,7 @@ class Home extends React.Component {
                         <span><img src="https://i.ibb.co/xDwPT8M/btc.png" alt="btc" />{Number(this.state.btc).toFixed(3)} USDT</span>{" "}
                         <span><img src="https://i.ibb.co/1LFTWd0/eth2.png" alt="eth" />{Number(this.state.eth).toFixed(3)} USDT</span>{" "}
                         <span><img src="https://i.ibb.co/rxd1b2R/bnb.png" alt="bnb" />{Number(this.state.bnb).toFixed(3)} USDT</span>{" "}
-                        <span><img src="https://i.ibb.co/rxd1b2R/bnb.png" alt="bnb" />{Number(this.state.ldo).toFixed(3)} USDT</span>{" "}
+                        <span><img src="https://assets.coingecko.com/coins/images/13573/standard/Lido_DAO.png?1696513326" alt="bnb" />{Number(this.state.ldo).toFixed(3)} USDT</span>{" "}
                     </div>
                 </div>
                 <div className='aboutme'>

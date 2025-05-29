@@ -10,6 +10,7 @@ class Home extends React.Component {
             bnb: "",
             btc: "",
             eth: "",
+            ldo: "",
             index: 4
         }
     }
@@ -30,8 +31,10 @@ class Home extends React.Component {
                 .then(data => this.setState({ bnb: data.price }))
             fetch("https://www.binance.com/api/v3/ticker/price?symbol=BTCUSDT", { method: "GET" })
                 .then(response => response.json()).then(data => this.setState({ btc: data.price }))
-            fetch("https://www.binance.com/api/v3/ticker/price?symbol=LDOUSDT", { method: "GET" })
+            fetch("https://www.binance.com/api/v3/ticker/price?symbol=ETHUSDT", { method: "GET" })
                 .then(response => response.json()).then(data => this.setState({ eth: data.price }))
+            fetch("https://www.binance.com/api/v3/ticker/price?symbol=LDOUSDT", { method: "GET" })
+                .then(response => response.json()).then(data => this.setState({ ldo: data.price }))
         }, 1000);
         window.addEventListener("scroll", this.hideShow);
     }
@@ -62,6 +65,7 @@ class Home extends React.Component {
                         <span><img src="https://i.ibb.co/xDwPT8M/btc.png" alt="btc" />{Number(this.state.btc).toFixed(3)} USDT</span>{" "}
                         <span><img src="https://i.ibb.co/1LFTWd0/eth2.png" alt="eth" />{Number(this.state.eth).toFixed(3)} USDT</span>{" "}
                         <span><img src="https://i.ibb.co/rxd1b2R/bnb.png" alt="bnb" />{Number(this.state.bnb).toFixed(3)} USDT</span>{" "}
+                        <span><img src="https://i.ibb.co/rxd1b2R/bnb.png" alt="bnb" />{Number(this.state.ldo).toFixed(3)} USDT</span>{" "}
                     </div>
                 </div>
                 <div className='aboutme'>
